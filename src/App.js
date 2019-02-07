@@ -1,7 +1,9 @@
 import React, { Component } from "react";
+import "./index.css";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Login from "./pages/Login";
 import Timeline from "./pages/Timeline";
+
 class App extends Component {
   render() {
     return (
